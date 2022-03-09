@@ -1,0 +1,208 @@
+@font-face {
+    font-family: minecraft;
+    src: url(/setup/font/MinecraftItalic-R8Mo.otf);}
+ @font-face {
+    font-family: vietnam;
+    src:url(/setup/font/VKUNBI.TTF);
+}
+@font-face {
+    font-family: minecraft2;
+    src:url(/setup/font/MinecraftBoldItalic-1y1e.otf);
+}
+  
+.box1{
+    background-image:linear-gradient(10deg,#9eacfa,#1c26b3);
+    width: 90%;   
+    height: 60px;
+    
+    border-color: #070a2b;
+    border-style: inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 4.5%;
+    
+}
+body{
+    background-image: url(/setup/img/background2.jfif);
+    background-repeat: no-repeat;
+background-size: cover;
+}
+.box2{
+    background-image:linear-gradient(0,#0611af,#5f94f7);
+    width: 50%;   
+    height: 1400px;
+    align-content: center;
+    border-style: inset;
+    
+
+border-color: #157974;
+margin-left: 23.5%;
+margin-top: 2%;
+}
+#title{
+    font-family:'Times New Roman', Times, serif
+    
+}
+.rb{
+    font-size: 50px;
+    
+    text-align :center;
+    padding:0;
+    -webkit-animation: animatedBackground_b 25s linear infinite alternate;
+        
+}
+
+@keyframes animatedBackground_b{
+    0% {color: #ff8b00}
+    10% {color: #e8ff00}
+    20% {color: #5dff00}
+    30% {color: #00ff2e}
+    40% {color: #00ff88}
+    50% {color: #0952f0}
+    60% {color: #002eff}
+    70% {color: #5d00ff}
+    80% {color: #e800ff}
+    90% {color: #ff008b}
+    100% {color: #ff0000} }
+    .mtitle1{
+        text-align: center;
+        font-size: 150%;
+        font-family: 'Times New Roman', Times, serif;
+        Text-decoration: none;
+        padding:0;
+        color: #fac517;
+    }
+ 
+    }
+    .boxclick:hover{
+        background-image: linear-gradient(60deg,#df620e,#dbb714);
+    }
+    ::selection{background-color: #42ca35;}
+.note{
+    background-color: #070a2b;
+    width: 90%;
+    height: 95%;
+    border-radius: 15px;
+    border-color: #05424d;
+    border-style: inset;
+margin-top: 20px;
+margin-left: 30px;
+}
+.note1{
+    background-color: #070a2b;
+    width: 30%;
+    height: 5%;
+    border-radius: 20px;
+    border-color: #05424d;
+    border-style: inset;
+margin-top: 5px;
+margin-left: 210px; 
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.title1{
+text-align: center;
+color: #00ff88;
+font-size: 30px;
+font-family: 'Times New Roman', Times, serif;
+}
+.title2{
+    color: #ffffff;
+    font-size: 25px;
+    font-family: minecraft;
+    Text-decoration:none;
+    
+}
+.title2:hover{
+    color: #15ff00;
+}
+.title3:hover{
+    color: #00e1ff;
+}.title3:active{
+    color: #00ff2e;
+}
+
+.title3{
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Segoe UI';
+    text-align: center;
+}
+.back{
+    width: 20%;
+    height: 3%;
+    background-color: #070a2b;
+    border-radius: 30px;
+    border-color: #054d37;
+    border-style: inset;
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-left: 40%;
+}
+.back:hover{
+    
+    background-image: linear-gradient(60deg,#03d690,#140c86);
+}
+.title4{
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: 20px;
+}
+.title5{
+    text-align: center;
+    color: #00ffbf;
+    font-size: 30px;
+    font-family: minecraft;
+    Text-de
+    coration:none;
+    }
+    .xg:invalid{
+        Text-decoration:none;
+        color: #ffffff;
+    }
+    .xg:link{
+        Text-decoration:none;
+        color: #ffffff;
+    }
+    .xg:hover{
+        color: #00e1ff;
+    }
+    .chuthich ul li:hover{
+        color: #00ff2e;
+    }
+    .chuthich ul li > .subct{
+        display: none;
+    }
+    .chuthich ul li:hover .subct {
+        display: block;
+    
+    }
+    .subct:hover{
+        font-size: 30px;
+    
+    }
+    .subct {
+        Display: none;
+      }
+      .subct.active {
+      Display: block;
+      }
+   @media (min-width: 1124px) {
+    .subct:hover{
+        font-size: 30px;
+        color: #0f0969;
+
+    }  
+    .hover:hover{
+        color: #00ff2e;
+    }
+   }
+   @media (min-width: 740px) and (max-witdt: 1123){
+  
+   }
