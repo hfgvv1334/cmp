@@ -1,13 +1,13 @@
 @font-face {
     font-family: minecraft;
-    src: url(/setup/font/MinecraftItalic-R8Mo.otf);}
+    src: url(https://hfgvv1334.github.io/cmp/setup/font/MinecraftItalic-R8Mo.otf);}
  @font-face {
     font-family: vietnam;
     src:url(/setup/font/VKUNBI.TTF);
 }
 @font-face {
     font-family: minecraft2;
-    src:url(/setup/font/MinecraftBoldItalic-1y1e.otf);
+    src:url(https://hfgvv1334.github.io/cmp/setup/font/MinecraftBoldItalic-1y1e.otf);
 }
   
 .box1{
