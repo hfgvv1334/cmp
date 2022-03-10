@@ -128,7 +128,7 @@ font-family: 'Times New Roman', Times, serif;
 
 .title3{
     color: #ffffff;
-    font-size: 25px;
+    font-size: 22px;
     font-family: 'Segoe UI';
     text-align: center;
 }
@@ -182,6 +182,13 @@ margin-left: 40%;
     .chuthich ul li:hover .subct {
         display: block;
     
+    }
+    .chuthich ul{
+        list-style-type: none;
+    
+    }
+    .chuthich ul li{
+        display: inline-table;
     }
     .subct:hover{
         font-size: 30px;
