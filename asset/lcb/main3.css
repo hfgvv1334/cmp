@@ -25,7 +25,7 @@
     
 }
 body{
-    background-image: url(/setup/img/background2.jfif);
+    background-image: url(../setup/img/background2.jfif);
     background-repeat: no-repeat;
 background-size: cover;
 }
