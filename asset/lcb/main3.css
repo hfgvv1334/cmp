@@ -128,9 +128,22 @@ font-family: 'Times New Roman', Times, serif;
 
 .title3{
     color: #ffffff;
-    font-size: 22px;
+    font-size: 23px;
     font-family: 'Segoe UI';
     text-align: center;
+}
+.titlem:hover{
+    color: #00e1ff;
+}.titlem:active{
+    color: #00ff2e;
+}
+
+.titlem{
+    color: #ffffff;
+    font-size: 27px;
+    font-family: minecraft;
+    text-align: center;
+    cursor:pointer;
 }
 .back{
     width: 20%;
@@ -183,7 +196,7 @@ margin-left: 40%;
         display: block;
     
     }
-    .chuthich ul{
+    .chuthich ul {
         list-style-type: none;
     
     }
@@ -206,10 +219,74 @@ margin-left: 40%;
         color: #0f0969;
 
     }  
+    .subct2:hover{
+        font-size: 30px;
+        color: #090638;
+
+    } 
+    .subct3:hover{
+        font-size: 30px;
+        color: #090638;
+
+    } 
     .hover:hover{
         color: #00ff2e;
     }
+    .hover{
+        cursor: zoom-in;
+    }
+    .hover2:hover{
+        color: #00a2ff;
+    }
+    .hover2{
+        cursor: zoom-out;
+    }
    }
+   .hover:hover{
+    color: #00ff2e;
+}
+.hover{
+    cursor: zoom-in;
+}
    @media (min-width: 740px) and (max-witdt: 1123){
   
    }
+   .chuthich2 ol li:hover{
+    color: #00ff9d;
+}
+.chuthich2 ol li > .subct{
+    display: none;
+}
+.chuthich2 ol li:hover .subct {
+    display: block;
+
+}
+.chuthich4 ul li:hover{
+    color: #00ff9d;
+}
+.chuthich4 ul li > .subct3{
+    display: none;
+}
+.chuthich4 ul li:hover .subct3 {
+    display: block;
+
+}
+.mauxanh{
+    color:#0084ff ;
+    cursor: help;
+}
+.cursor{
+    cursor: help;
+}
+.chuthich3 ul li:hover{
+    color: #00ff2e;
+}
+.chuthich3 ul li > .subct2{
+    display: none;
+}
+.chuthich3 ul li:hover .subct2 {
+    display: block;
+
+}
+
+
