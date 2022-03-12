@@ -265,3 +265,63 @@ font-family: 'Times New Roman', Times, serif;
     font-family: minecraft2;
     src:url(https://hfgvv1334.github.io/cmp/setup/font/MinecraftBoldItalic-1y1e.otf);
 }
+   .box2a6{
+        background-image: linear-gradient(45deg,#a59017,#a130b8);
+        width: 90%;
+        height: 20%;
+        padding: 0;
+        border-color: #1d041f;
+        border-top-width: 2px;
+        border-left-width: 2px;
+        border-right-width: 2px;
+        border-style: solid;
+        margin-left: 5%;
+        margin-top: 0.1%;
+    }
+.box2a6b1{
+    background-image: linear-gradient(45deg,#c000fa,#d1e271);
+    width: 25%;
+    height: 20%;
+    border-color: #04061f;
+   
+    border-top-width: 2px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-style:inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mauxanh{
+    color:#0084ff ;
+    cursor: help;
+    font-size: 20px;
+}
+.chuthich ul li:hover{
+    color: #00ff2e;
+}
+.chuthich ul li > .subct{
+    display: none;
+}
+.chuthich ul li:hover .subct {
+    display: block;
+
+}
+
+.subct:hover{
+    font-size: 30px;
+
+}
+.subct {
+    Display: none;
+  }
+  .subct.active {
+  Display: block;
+  }
+@media (min-width: 1124px) {
+.subct:hover{
+    font-size: 20px;
+    color: #0f0969;
+
+}  }
