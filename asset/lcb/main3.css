@@ -288,5 +288,19 @@ margin-left: 40%;
     display: block;
 
 }
+.video{
+    width: 50%;
+    height: 13%;
+    border-color: #0084ff;
+    border-style: inset;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 25%;
+    margin-bottom: 20px;
+}
+.video2{
+    border-radius: 20px;
+    border-color: #002eff;
+}
 
 
